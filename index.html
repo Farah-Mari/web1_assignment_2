@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="CSS/farah.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation menu bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#Future Goals">Future Goals</a></li>
+            <li><a href="#projects">Previous Project</a></li>
+            <li><a href="#favorite-hobby">Guess My Favorite Hobby</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section: About Me -->
+    <section id="about">
+        <h1>Farah Mari</h1>
+        <!-- Image with fallback text -->
+        <p>Hi, I’m Farah, a CAP student at NNU. I’m passionate about coding and technology, always
+            <br>
+             looking to learn new skills and take on exciting challenges in the tech world.</p>
+        <img src="profile.jpg" alt="farah" width="250" height="250">
+    </section>
+
+    <!-- Section: My Hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+       <div class="intro">
+         <p>Outside of my computer science studies, I love spending time on hobbies that help me relax and get creative. These hobbies really keep me inspired and balanced:</p>
+        </div>
+        <!-- Using an unordered list with links to Wikipedia -->
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Drawing" target="_blank">Drawing</a> - I enjoy drawing because it lets me express my thoughts and feelings visually, and it's a great way to unwind and reflect.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Photography" target="_blank">Photography</a> - I love capturing beautiful moments around me, finding joy in documenting small details that others might miss.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Reading" target="_blank">Reading</a> - Reading opens up new worlds for me and expands my knowledge, plus it helps me improve my thinking and analytical skills.</li>
+        </ul>
+
+        <!-- Images for hobbies with fallback -->
+        <div class="hobby-images">
+            <img src="Drawing.jpeg" alt="Drawing" width="150" height="170"> 
+            <img src="Photography.jpeg" alt="Photography" width="150" height="170">
+            <img src="Reading.jpeg" alt="Reading" wisdth="150" height="170">
+        </div>
+       <div class="conclusion">
+        <p>These hobbies give me a nice break from my studies and allow me to explore my creative side.</p>
+    </div>
+    </section>
+
+    <!-- Section: Future Aspirations -->
+    <section id="future">
+        <h2>What I Want to Be When I Grow Up</h2>
+        <p>In the future, I plan to continue developing my skills in computer science and explore new technologies. I’m excited to work on projects that make a difference, whether in tech innovation or problem-solving. 
+            <br>
+            I also aim to keep learning and growing, both personally and professionally, to achieve my goals and make a positive impact in the tech world</p>
+    </section>
+
+    <!-- Section: Previous Project -->
+    <section id="projects">
+        <h2>Previous Project</h2>
+        <div class="link">
+            <p>Here's a link to one of my previous projects:</p>
+        </div>
+        <a href="https://github.com/Farah-Mari/assignment-1.git" target="_blank">assignment-1 GitHub Repository</a>
+    </section>
+
+    <!-- Section: Guess My Favorite Hobby -->
+    <section id="guess-hobby">
+        <h2>Guess My Favorite Hobby!</h2>
+       <div class="guess">
+        <p>Can you guess which hobby I enjoy the most? Enter your guess below!</p>
+    </div>
+        <form>
+            <label for="hobby-guess">Your Guess:</label><br>
+            <input type="text" id="hobby-guess" name="hobby-guess" placeholder="Enter your guess">
+            <br><br>
+            <input type="submit" value="Submit Guess">
+        </form>
+    </section>
+</body>
+</html>

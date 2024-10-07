@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0c5ba;
+    background-image: url(../background.jpeg);
+    color: #201f1f;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #d88ba9a2;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d64f99;
+    border-radius: 5px;
+}
+
+/* Section: About Me */
+#about {
+    background-color: #f5f0e8b6;
+    padding: 50px 20px;
+    text-align: left;
+    margin: 40px 0;
+    border-radius: 60px;
+}
+
+#about h1 {
+    color: #aac49e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2rem;
+
+}
+
+#about img {
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about p {
+    margin-top: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: center ;
+    font-size: 1.2rem;
+    color: #4a664a;
+    font-weight: bold;
+}
+
+/* Section: Hobbies */
+#hobbies {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7ebebc0;
+    margin: 40px 0;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies h2 {
+    color: #aac49e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2.2rem;
+}
+
+#hobbies ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.intro p {
+    color: #831717;
+    font-weight: bold;
+}
+#hobbies ul li {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.2rem;
+    color: #614a70;
+    margin-bottom: 10px;
+}
+
+#hobbies ul li a {
+    color: #ce57b4;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hobbies ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hobby images */
+.hobby-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hobby-images img {
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conclusion p {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #831717;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Section: Future Goals */
+#future {
+    background-color: #faf0f0b9;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 60px;
+}
+
+#future h2 {
+    color: #aac49e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.8rem;
+}
+
+#future p {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.2rem;
+    color: #51345e;
+    margin-top: 20px;
+}
+
+/* Section: Previous Project */
+#projects {
+    background-color: #f5f0e8b2;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 60px;
+}
+
+#projects h2 {
+    color: #aac49e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.8rem;
+}
+
+.link p {
+    color: #51345e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#projects a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Section: Guess My Favorite Hobby */
+#guess-hobby {
+    background-color: #f5f0e8b6;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 60px;
+}
+
+#guess-hobby h2 {
+    color: #aac49e;
+    font-size: 1.8rem;
+}
+
+.guess p {
+    color: #51345e;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+
+#guess-hobby form {
+    margin-top: 20px;
+}
+
+#guess-hobby input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #f8b1e9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#guess-hobby input[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#guess-hobby input[type="submit"]:hover {
+    background-color: #16a085;
+}
